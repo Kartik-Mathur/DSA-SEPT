@@ -2,7 +2,9 @@
 using namespace std;
 
 void update(int &x){
+
 	x = x + 1;
+
 }
 
 int main(){
@@ -10,8 +12,11 @@ int main(){
 	int a = 1;
 
 	cout << "Before a : "<<a<<endl;
+
 	update(a);
+	
 	cout << "After  a : "<<a<<endl; 
+
 
 	return 0;
 }
